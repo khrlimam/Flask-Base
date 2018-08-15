@@ -1,5 +1,3 @@
-#Workflow
-
 ## Few things on this template:
 1. `loader.py`: This file has one function: `load(app)` this function will loads all apps blueprint.
 2. `boot.py`: this file contains applications boots. Here Flask application will be started
