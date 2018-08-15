@@ -12,9 +12,9 @@
 
 ## Built in commands
 1. manage.py
-- Init migrations: `python manage.py db init`
-- Migrate models into table schema: `python manage.py db migrate`
-- Build table schema into real table: `python manage.py db upgrade`
-- Init table records: `python manage.py seed`
+  - **Init migrations**: `python manage.py db init`
+  - **Migrate models into table schema**: `python manage.py db migrate`
+  - **Build table schema into real table**: `python manage.py db upgrade`
+  - **Init table records**: `python manage.py seed`
 2. flask
-- Run the app: flask run. Make sure you exported `FLASK_APP` variable which defines the file location that contains `flask.run` method, in our case that is server.py. So the exported variable would be look like `export FLASK_APP=$(pwd)/server.py`
+  - **Run the app**: `flask run`. Make sure you exported `FLASK_APP` variable which defines the file location that contains `flask.run()` method, in our case that is `server.py`. So the exported command would be look like `export FLASK_APP=$(pwd)/server.py`
